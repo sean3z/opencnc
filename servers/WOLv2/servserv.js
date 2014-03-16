@@ -46,9 +46,9 @@ var server = net.createServer(function (socket) {
 									case 7426:
 									case 7427:
 									case 7431:
-										socket.write(': 605 u :localhost 4001 \'0,1:CnC Server\' -8 36.1083 -115.0582\r\n');
-										socket.write(': 608 u :localhost 4006 \'Gameres server\' -8 36.1083 -115.0582\r\n');
-										socket.write(': 609 u :localhost 4007 \'Ladder server\' -8 36.1083 -115.0582\r\n');
+										socket.write(': 605 u :127.0.0.1 4001 \'0,1:OpenCnC Server\' -8 36.1083 -115.0582\r\n');
+										socket.write(': 608 u :127.0.0.1 4006 \'Gameres server\' -8 36.1083 -115.0582\r\n');
+										socket.write(': 609 u :127.0.0.1 4007 \'Ladder server\' -8 36.1083 -115.0582\r\n');
 									break;
 
 									case 8448: // RA2
@@ -66,10 +66,10 @@ var server = net.createServer(function (socket) {
 									case 10499:
 									case 10505:
 									case 10506:
-										socket.write(': 605 u :localhost 4002 \'0,1:CnC Server\' -8 36.1083 -115.0582\r\n');
-										socket.write(': 605 u :localhost 5000 \'Live chat server\' -8 36.1083 -115.0582\r\n'); // defunct. added strictly for RA2/YR support
-										socket.write(': 608 u :localhost 4006 \'Gameres server\' -8 36.1083 -115.0582\r\n');
-										socket.write(': 609 u :localhost 4007 \'Ladder server\' -8 36.1083 -115.0582\r\n');
+										socket.write(': 605 u :127.0.0.1 4002 \'0,1:OpenCnC Server\' -8 36.1083 -115.0582\r\n');
+										socket.write(': 605 u :127.0.0.1 5000 \'Live chat server\' -8 36.1083 -115.0582\r\n'); // defunct. added strictly for RA2/YR support
+										socket.write(': 608 u :127.0.0.1 4006 \'Gameres server\' -8 36.1083 -115.0582\r\n');
+										socket.write(': 609 u :127.0.0.1 4007 \'Ladder server\' -8 36.1083 -115.0582\r\n');
 										// socket.write(': 612 u :xwis.net 4321  \'Port Mangler\' -8 36.1083 -115.0582\r\n');
 									break;
 								}

@@ -41,7 +41,7 @@ exports.serial = function (user, cmd) {
 exports.user = function (user, cmd, motds) {
 	// if verified send MOTD
 	if (user.isLoggedIn && cmd.length > 1) {
-		var motd = [': 375 u :- Welcome to C&C Online!'];
+		var motd = [': 375 u :- Welcome to OpenCnC Online!'];
 		motd.push(': 372 u :- -', ': 376 u');
 		user.write(motd.join('\r\n'));
 	}

@@ -6,7 +6,7 @@ GBULLET="$(tput setaf 2)*$(tput setaf 7)"
 RBULLET="$(tput setaf 1)*$(tput setaf 7)"
 GRAQUO="$(tput setaf 2)>>$(tput setaf 7)"
 
-printf "%s\n" "$(tput bold)$GRAQUO Initalizing $(tput setaf 3)C&C node.js server $(tput setaf 6)0.1$(tput sgr0)"
+printf "%s\n" "$(tput bold)$GRAQUO Initalizing $(tput setaf 3)OpenCnC node.js server $(tput setaf 6)0.1$(tput sgr0)"
 
 printf "%s\t\t%s\n" "$(tput bold)$GBULLET Removing old debug/*.out logs ..." $SUCCESS
 rm -f debug/*.out
