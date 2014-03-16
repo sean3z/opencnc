@@ -23,7 +23,7 @@ Passive development
     *__Note__: for RA2 to function, both gameres.js and ladder.js must also be running*
 
 ### Contributing
-Feel free to fork submit pull requests.
+Feel free to fork and submit pull requests.
 
 ### License
 OpenCnC is licensed under the [MIT license](https://github.com/sean3z/opencnc/blob/master/LICENSE.txt).
