@@ -12,5 +12,5 @@ Active development
 
 ### Usage
 1. Install [node.js](http://nodejs.org/) version >= 0.10.11. 
-2. Edit `localhost` out of `servers\WOLv2\servserv.js` to point to your server
+2. Edit `localhost` out of `src\WOLv2\servserv.js` to point to your server
 3. `npm start`
