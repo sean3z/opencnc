@@ -1,0 +1,19 @@
+{
+  "name": "opencnc",
+  "version": "1.0.0",
+  "description": "legacy Westwood Online simulator",
+  "author": "Sean Wragg <seanwragg@gmail.com>",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/sean3z/opencnc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sean3z/opencnc/issues"
+  },
+  "homepage": "https://github.com/sean3z/opencnc",
+  "license": "MIT"
+}
