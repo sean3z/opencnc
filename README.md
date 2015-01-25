@@ -11,6 +11,5 @@ Active development
 * Yuri's Revenge
 
 ### Usage
-1. Install [node.js](http://nodejs.org/) version >= 0.10.11. 
-2. Edit `localhost` out of `src\WOLv2\servserv.js` to point to your server
-3. `npm start`
+* Edit `src/config.json`
+* `npm start`
